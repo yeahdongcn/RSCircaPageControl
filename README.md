@@ -26,3 +26,5 @@ In - (void)scrollViewDidScroll:(UIScrollView *)scrollView;
         [self.pageControl updateScrollerAtPercentage:percentage animated:YES];
     }
 }
+
+Explore more in sample.
