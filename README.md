@@ -17,7 +17,9 @@ The second function takes two parameters, current page and whether to use scroll
 
 The last function will update the scroller (page indicator). You should use scroll view's delegate to do this.
 
-In - (void)scrollViewDidScroll:(UIScrollView *)scrollView
+In - (void)scrollViewDidScroll:(UIScrollView *)scrollView;
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     if (scrollView != self.scrollView) {
         float percentage = scrollView.contentOffset.y / (scrollView.contentSize.height - scrollView.bounds.size.height);
