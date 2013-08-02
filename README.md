@@ -1,7 +1,7 @@
 RSCircaPageControl
 ==================
 
-Clone 'Circa' news detail view's page control and provide an easy to ready sample.
+Clones 'Circa' news detail view's page control and provide an easy to ready sample.
 
 It's quite simple to use this page control, there are only 3 functions available.
 
