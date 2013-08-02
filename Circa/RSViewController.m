@@ -39,7 +39,7 @@
 
 @implementation RSViewController
 
-static const int kScrollViewHeight        = 300;
+static const int kScrollViewHeight        = 310;
 static const int kScrollViewContentHeight = 600;
 static const int kScrollViewTagBase       = 500;
 
@@ -67,6 +67,7 @@ static const int kScrollViewTagBase       = 500;
     frame.origin.x = self.view.bounds.size.width - frame.size.width - 10;
     frame.origin.y = roundf((self.view.bounds.size.height - frame.size.height) / 2.);
     self.pageControl.frame = frame;
+    self.pageControl.autoresizingMask = UIViewAutoresizingFlexibleLeftMargin | UIViewAutoresizingFlexibleTopMargin | UIViewAutoresizingFlexibleBottomMargin;
     [self.pageControl setCurrentPage:0 usingScroller:NO];
     [self.view addSubview:self.pageControl];
     
