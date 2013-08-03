@@ -22,14 +22,6 @@
 		D03DD13117A8ACBD00E78BC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D03DD12F17A8ACBD00E78BC5 /* InfoPlist.strings */; };
 		D03DD13317A8ACBD00E78BC5 /* CircaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D03DD13217A8ACBD00E78BC5 /* CircaTests.m */; };
 		D0B38FF217AB5EC30085FCD3 /* RSCircaPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = D0B38FE917AB5EC30085FCD3 /* RSCircaPageControl.m */; };
-		D0B38FF317AB5EC30085FCD3 /* scrubber_bigdot.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B38FEA17AB5EC30085FCD3 /* scrubber_bigdot.png */; };
-		D0B38FF417AB5EC30085FCD3 /* scrubber_bigdot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B38FEB17AB5EC30085FCD3 /* scrubber_bigdot@2x.png */; };
-		D0B38FF517AB5EC30085FCD3 /* scrubble_black.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B38FEC17AB5EC30085FCD3 /* scrubble_black.png */; };
-		D0B38FF617AB5EC30085FCD3 /* scrubble_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B38FED17AB5EC30085FCD3 /* scrubble_black@2x.png */; };
-		D0B38FF717AB5EC30085FCD3 /* scrubble_scrollerdot_black.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B38FEE17AB5EC30085FCD3 /* scrubble_scrollerdot_black.png */; };
-		D0B38FF817AB5EC30085FCD3 /* scrubble_scrollerdot_black@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B38FEF17AB5EC30085FCD3 /* scrubble_scrollerdot_black@2x.png */; };
-		D0B38FF917AB5EC30085FCD3 /* scrubblebg.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B38FF017AB5EC30085FCD3 /* scrubblebg.png */; };
-		D0B38FFA17AB5EC30085FCD3 /* scrubblebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D0B38FF117AB5EC30085FCD3 /* scrubblebg@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,14 +56,6 @@
 		D03DD13217A8ACBD00E78BC5 /* CircaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircaTests.m; sourceTree = "<group>"; };
 		D0B38FE817AB5EC30085FCD3 /* RSCircaPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSCircaPageControl.h; sourceTree = "<group>"; };
 		D0B38FE917AB5EC30085FCD3 /* RSCircaPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSCircaPageControl.m; sourceTree = "<group>"; };
-		D0B38FEA17AB5EC30085FCD3 /* scrubber_bigdot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrubber_bigdot.png; sourceTree = "<group>"; };
-		D0B38FEB17AB5EC30085FCD3 /* scrubber_bigdot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrubber_bigdot@2x.png"; sourceTree = "<group>"; };
-		D0B38FEC17AB5EC30085FCD3 /* scrubble_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrubble_black.png; sourceTree = "<group>"; };
-		D0B38FED17AB5EC30085FCD3 /* scrubble_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrubble_black@2x.png"; sourceTree = "<group>"; };
-		D0B38FEE17AB5EC30085FCD3 /* scrubble_scrollerdot_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrubble_scrollerdot_black.png; sourceTree = "<group>"; };
-		D0B38FEF17AB5EC30085FCD3 /* scrubble_scrollerdot_black@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrubble_scrollerdot_black@2x.png"; sourceTree = "<group>"; };
-		D0B38FF017AB5EC30085FCD3 /* scrubblebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scrubblebg.png; sourceTree = "<group>"; };
-		D0B38FF117AB5EC30085FCD3 /* scrubblebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scrubblebg@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -177,14 +161,6 @@
 			children = (
 				D0B38FE817AB5EC30085FCD3 /* RSCircaPageControl.h */,
 				D0B38FE917AB5EC30085FCD3 /* RSCircaPageControl.m */,
-				D0B38FEA17AB5EC30085FCD3 /* scrubber_bigdot.png */,
-				D0B38FEB17AB5EC30085FCD3 /* scrubber_bigdot@2x.png */,
-				D0B38FEC17AB5EC30085FCD3 /* scrubble_black.png */,
-				D0B38FED17AB5EC30085FCD3 /* scrubble_black@2x.png */,
-				D0B38FEE17AB5EC30085FCD3 /* scrubble_scrollerdot_black.png */,
-				D0B38FEF17AB5EC30085FCD3 /* scrubble_scrollerdot_black@2x.png */,
-				D0B38FF017AB5EC30085FCD3 /* scrubblebg.png */,
-				D0B38FF117AB5EC30085FCD3 /* scrubblebg@2x.png */,
 			);
 			path = CircaPageControl;
 			sourceTree = SOURCE_ROOT;
@@ -266,17 +242,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D0B38FF917AB5EC30085FCD3 /* scrubblebg.png in Resources */,
 				D03DD12017A8ACBD00E78BC5 /* Images.xcassets in Resources */,
-				D0B38FFA17AB5EC30085FCD3 /* scrubblebg@2x.png in Resources */,
 				D03DD11217A8ACBD00E78BC5 /* InfoPlist.strings in Resources */,
-				D0B38FF817AB5EC30085FCD3 /* scrubble_scrollerdot_black@2x.png in Resources */,
-				D0B38FF317AB5EC30085FCD3 /* scrubber_bigdot.png in Resources */,
-				D0B38FF717AB5EC30085FCD3 /* scrubble_scrollerdot_black.png in Resources */,
-				D0B38FF417AB5EC30085FCD3 /* scrubber_bigdot@2x.png in Resources */,
 				D03DD11B17A8ACBD00E78BC5 /* Main.storyboard in Resources */,
-				D0B38FF517AB5EC30085FCD3 /* scrubble_black.png in Resources */,
-				D0B38FF617AB5EC30085FCD3 /* scrubble_black@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DDC3A47E-9F4B-47AA-8BBC-2D78F9785E78</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Circa</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>017F9B6F-1636-43B3-9032-A99F5C0045FC</key>
+		<string>https://github.com/yeahdongcn/RSCircaPageControl.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Circa.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>017F9B6F-1636-43B3-9032-A99F5C0045FC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/yeahdongcn/RSCircaPageControl.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>017F9B6F-1636-43B3-9032-A99F5C0045FC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>017F9B6F-1636-43B3-9032-A99F5C0045FC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Circa</string>
+		</dict>
+	</array>
+</dict>
+</plist>
