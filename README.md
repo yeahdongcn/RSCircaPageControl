@@ -1,6 +1,8 @@
 RSCircaPageControl
 ==================
 
+[![ScreenShot](https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/1578/iOS_Simulator_Screen_shot_Aug_2__2013_12.19.55_PM.png)]
+
 Clones 'Circa' news detail view's page control and provide an easy-to-follow sample.
 
 It's quite simple to use this page control, there are only 3 functions available.
