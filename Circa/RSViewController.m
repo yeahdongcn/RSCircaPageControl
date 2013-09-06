@@ -39,7 +39,7 @@
 
 @implementation RSViewController
 
-static const int kScrollViewHeight        = 310;
+static const int kScrollViewHeight        = 420;
 static const int kScrollViewContentHeight = 600;
 static const int kScrollViewTagBase       = 500;
 
@@ -77,7 +77,7 @@ static const int kScrollViewTagBase       = 500;
         sv.tag = kScrollViewTagBase + i;
         sv.delegate = self;
         sv.autoresizingMask = UIViewAutoresizingFlexibleWidth;
-        sv.backgroundColor = [UIColor colorWithRed:(random() % 257) / 256. green:(random() % 257) / 256. blue:(random() % 257) / 256. alpha:1];
+        sv.backgroundColor = [UIColor colorWithRed:(arc4random() % 257) / 256. green:(arc4random() % 257) / 256. blue:(arc4random() % 257) / 256. alpha:1];
         if (i == 2 || i == 6) {
             sv.contentSize = CGSizeMake(sv.contentSize.width, kScrollViewContentHeight);
         }
