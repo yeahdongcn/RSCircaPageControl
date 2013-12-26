@@ -30,3 +30,7 @@ In - (void)scrollViewDidScroll:(UIScrollView *)scrollView;
 }
 
 Explore more in sample.
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/yeahdongcn/rscircapagecontrol/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
