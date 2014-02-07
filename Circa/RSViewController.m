@@ -34,6 +34,7 @@
 @property (nonatomic, strong) RSView *clipView;
 @property (nonatomic, strong) UIScrollView *scrollView;
 @property (nonatomic, strong) RSCircaPageControl *pageControl;
+@property (nonatomic, weak) IBOutlet UIButton *button;
 
 @end
 
@@ -85,6 +86,8 @@ static const int kScrollViewTagBase       = 500;
         currentY += kScrollViewHeight;
     }
     self.scrollView.contentSize = CGSizeMake(self.scrollView.contentSize.width, currentY);
+    
+    [self.view bringSubviewToFront:self.button];
 }
 
 - (void)didReceiveMemoryWarning
@@ -114,6 +117,16 @@ static const int kScrollViewTagBase       = 500;
             [self.pageControl updateScrollerAtPercentage:percentage animated:NO];
         }
     }
+}
+
+- (IBAction)buttonClicked:(id)sender
+{
+    int page = 2; // Which page you want to go
+    
+    [self.scrollView setContentOffset:CGPointMake(0, kScrollViewHeight * page) animated:YES];
+    UIScrollView *sv = (UIScrollView *)[self.scrollView viewWithTag:kScrollViewTagBase + page];
+    BOOL usingScroller = sv.contentSize.height > sv.bounds.size.height;
+    [self.pageControl setCurrentPage:page usingScroller:usingScroller];
 }
 
 @end
