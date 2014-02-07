@@ -29,7 +29,15 @@ In - (void)scrollViewDidScroll:(UIScrollView *)scrollView;
     }
 }
 
+######How manually go to one page
+
+Check `- (IBAction)buttonClicked:(id)sender` in `RSViewController`, first scroll the scrollview to fit the page and then update the page control with current page.
+
+------
+
 Explore more in sample.
+
+------
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/yeahdongcn/rscircapagecontrol/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
